@@ -6,10 +6,6 @@
   "repository": "https://github.com/aryazakaria01/YuiMusic",
   "stack": "container",
   "env": {
-    "OWNER_ID": {
-      "description": "Your telegram ID",
-      "required": true
-    },
     "SESSION_NAME": {
       "description": "Pyrogram session string",
       "required": true
