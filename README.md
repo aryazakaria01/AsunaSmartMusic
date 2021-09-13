@@ -1,30 +1,8 @@
 <h2 align="centre">Yui Music Player 🎵</h2>
 
 ### A bot that can play music on telegram group's voice call
-##
-<p align="center">
-  <img src="https://telegra.ph/file/d262cc6a47d7a709acecc.jpg">
-<b>Play from Title</b>
-</p>
-
-##
-
-<p align="center">
-  <img src="https://telegra.ph/file/63b1e16cabccff6b70b30.jpg">
-<b>Play from YT Url</b>
-</p>
-
-##
-
-<p align="center">
-  <img src="https://telegra.ph/file/69d584442148204d83223.jpg">
-<b>Play from Media File</b>
-</p>
-
-##
 
 <h3>Requirements 📝</h3>
-
 - FFmpeg
 - NodeJS [nodesource.com](https://nodesource.com/)
 - Python 3.7+
