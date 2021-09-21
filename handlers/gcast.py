@@ -4,10 +4,10 @@ from pyrogram import Client, filters
 from pyrogram.types import Dialog, Chat, Message
 from pyrogram.errors import UserAlreadyParticipant
 
-from callsmusic.callsmusic import client as asuna
+from callsmusic.callsmusic import client as Yui
 from config import SUDO_USERS
 
-@Client.on_message(filters.command(["gcast"]))
+@Client.on_message(filters.command(["gst"]))
 async def broadcast(_, message: Message):
     if message.from_user.id not in SUDO_USERS:
         return
@@ -19,9 +19,9 @@ async def broadcast(_, message: Message):
     lmao = message.reply_to_message.text
     sent=0
     failed=0
-    async for dialog in asuna.iter_dialogs():
+    async for dialog in Yui.iter_dialogs():
         try:
-            await asuna.send_message(dialog.chat.id, lmao)
+            await Yui.send_message(dialog.chat.id, lmao)
             sent += 1
             await wtf.edit(f"`Broadcasting...` \n\n**Sent to:** `{sent}` chats \n**Failed in:** {failed} chats")
             await asyncio.sleep(3)
