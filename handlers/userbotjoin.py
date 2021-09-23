@@ -37,7 +37,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>Flood Wait Error\n{user.first_name} can't join your group due to many join requests for userbot! Make sure the user is not banned in the group."
-            f"\n\nOr manually add @AsunaSmartAI to your Group and try again.</b>",
+            f"\n\nOr manually add @JinakuShibagen to your Group and try again.</b>",
         )
         return
     await message.reply_text(
