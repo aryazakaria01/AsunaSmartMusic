@@ -381,7 +381,11 @@ async def play(_, message: Message):
             reply_markup=keyboard,
         )
     else:
-        callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
+        await call_py.join_group_call(
+            message.chat.id,
+            file,
+            stream_type=StreamType().local_stream,
+        )
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
