@@ -1,6 +1,7 @@
-pyrogram
+git+https://github.com/pyrogram/pyrogram@master
 TgCrypto
-py-tgcalls==0.5.5
+tgcrypto
+py-tgcalls==0.8.1rc1
 python-dotenv
 yt_dlp
 youtube_dl
@@ -19,3 +20,14 @@ psutil
 wget
 ffmpeg-python
 heroku3
+hacoir
+git+https://github.com/ytdl-org/youtube-dl
+git+https://github.com/yt-dlp/yt-dlp@master
+lyricsgenius
+speedtest-cli
+pykeyboard
+pyromod
+uvloop
+pytube
+ffmpeg-python
+httpx==0.13.3
